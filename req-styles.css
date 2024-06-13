@@ -184,7 +184,7 @@ main .request p {
     justify-content: space-around;
 }
 
-.feedback-stats {
+.feedback-stats .stat {
     text-align: center;
 }
 
@@ -199,4 +199,79 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px 0;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #content {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    aside {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    main {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    main .request,
+    .related-games,
+    .feedback {
+        padding: 10px;
+    }
+
+    header .logo h1 {
+        font-size: 1.5rem;
+    }
+
+    header .logo p {
+        font-size: 0.9rem;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    aside .search-box input,
+    aside .subscribe-box input,
+    aside .search-box button,
+    aside .subscribe-box button,
+    aside .request-section input,
+    aside .request-section textarea,
+    aside .request-section button {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    header .logo h1 {
+        font-size: 1.2rem;
+    }
+
+    header .logo p {
+        font-size: 0.8rem;
+    }
+
+    aside .search-box,
+    aside .subscribe-box,
+    aside .advertisement,
+    aside .request-section {
+        padding: 5px;
+    }
+
+    main .request,
+    .related-games,
+    .feedback {
+        padding: 5px;
+    }
 }
