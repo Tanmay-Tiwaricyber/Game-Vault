@@ -1,0 +1,202 @@
+/* styles.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+header .logo p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#content {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+}
+
+aside {
+    width: 25%;
+    padding: 10px;
+}
+
+aside h3 {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+aside .search-box,
+aside .subscribe-box,
+aside .advertisement,
+aside .request-section {
+    background: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+aside .search-box input,
+aside .subscribe-box input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+}
+
+aside .search-box button,
+aside .subscribe-box button {
+    width: 100%;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+aside .request-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+aside .request-section label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+aside .request-section input,
+aside .request-section textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+aside .request-section button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+main {
+    width: 75%;
+    padding: 10px;
+}
+
+main .request {
+    background: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+main .request h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+main .request p {
+    margin-bottom: 10px;
+}
+
+.related-games {
+    background: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.related-games h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.related-game {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.related-game img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.related-game p {
+    margin: 0;
+}
+
+.feedback {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+.feedback h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.feedback-stats {
+    display: flex;
+    justify-content: space-around;
+}
+
+.feedback-stats {
+    text-align: center;
+}
+
+.feedback-stats .stat p {
+    margin: 5px 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
